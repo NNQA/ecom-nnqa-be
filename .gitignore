@@ -1,0 +1,39 @@
+# SYSTEM FILES
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / CODE EDITORS
+.vscode/
+.idea/
+*.suo
+*.user
+
+# DEPENDENCIES & PACKAGES
+node_modules/
+jspm_packages/
+.pnp/
+vendor/
+
+# BUILD OUTPUTS
+dist/
+build/
+out/
+*.class
+*.pyc
+
+# LOGS & TEMPORARY FILES
+*.log
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.bak
+
+# SENSITIVE DATA
+.env
+.env.local
+*.pem
+
+# EXCEPTIONS
+logs/*.log
+!logs/important.log
