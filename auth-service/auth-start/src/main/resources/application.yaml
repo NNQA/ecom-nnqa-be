@@ -1,3 +1,15 @@
 spring:
   application:
     name: auth-start
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/auth_AUTH_db}
+    username: ${DB_USERNAME:my_auth_db}
+    password: ${DB_PASSWORD:NNQ@NH0512}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+    locations: classpath:db/migration

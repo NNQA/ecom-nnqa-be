@@ -37,6 +37,8 @@
     </properties>
     <modules>
         <module>auth-domain</module>
+        <module>auth-application</module>
+        <module>auth-infrastructure</module>
         <module>auth-start</module>
     </modules>
 </project>
